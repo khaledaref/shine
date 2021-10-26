@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bsbild_fullhd_01.jpg') no-repeat center center;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.55);
+    position: relative;
+}
+.content{
+    width: 70%;
+    height: 35vh;
+    position: absolute;
+    top: 35%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.content h1{
+    font-size: 42px;
+    color: white;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.content p{
+    font-size: 18px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.sec2{
+    width: 100%;
+    min-height: 600px;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .div1,.sec2 .div2,.sec2 .div3{
+    width: 33.33%;
+    height: 300px;
+    background-color: white;
+}
+.div1,.div2,.div3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.span1{
+    height: 150px;
+    width: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+border-radius: 50%;
+background-color: #008ed6;
+}
+.word{
+height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+width: 70%;
+}
+.word h2{
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 2px solid #008ed6;
+}
+.word p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+span{
+font-size: 70px;
+text-align: center;
+color: white;
+}
+.sec3{
+    width: 100%;
+    min-height: 430px;
+    background: url('../images/bg-subscribe.jpg') center center no-repeat fixed;
+    background-size: cover;
+   
+}
+.overlay2{
+    width: 100%;
+    min-height: 540px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+   position: relative;
+}
+.home{
+    width: 50%;
+    height: 30vh;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+.overlay2 h2{
+    font-size: 32px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 2;
+}
+.overlay2 p{
+    font-size: 18px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:100;
+}
+.email{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.email input{
+    width: 69%;
+    height: 60px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    color: white;
+   
+}
+.email input:focus{
+    border: 1px solid #008ed6;
+}
+.email button{
+    width: 30%;
+    height: 60px;
+    background-color: rgba(22, 182, 234, 0.5);
+    outline: none;
+    border: none;
+    border: 1px solid white;
+    font-size: 14px;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.email button:hover{
+    background-color: #008ed6;
+}
+.email input::placeholder{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+
+
+
