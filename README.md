@@ -13,6 +13,6 @@ To see the project [Click here](https://khaledaref.github.io/shine/)
 
 ### Image for the project :rose:
 
-<img src ="image/shine.png" width="250px" heighet="250px">
+<img src ="images/shine.png" width="250px" heighet="250px">
 
 
