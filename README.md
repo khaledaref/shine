@@ -11,4 +11,8 @@ My Email is khalednba1@gmail.com
  
 To see the project [Click here](https://khaledaref.github.io/shine/)
 
+### Image for the project :rose:
+
+<img src ="image/shine.png" width="250px" heighet="250px">
+
 
